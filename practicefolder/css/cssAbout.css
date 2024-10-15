@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(204, 195, 204);
+}
+header{
+    background-color: rgb(147, 64, 147);
+    padding :30px;
+    color: bisque;
+    font-size:30px;
+}
+article{
+    width: 100%;
+    height:100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(62, 30, 30);
+    font-weight:600;
+
+    background-image: url(/pictures/DALL·E\ 2024-10-14\ 19.36.25\ -\ A\ soft\,\ elegant\ horizontal\ background\ image\ for\ a\ boutique\,\ featuring\ pastel\ tones\ like\ blush\ pink\,\ soft\ lavender\,\ and\ cream.\ The\ design\ should\ have\ d.webp);
+}
+article p{
+    padding: 10px;
+}
