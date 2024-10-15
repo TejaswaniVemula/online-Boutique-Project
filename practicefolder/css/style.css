@@ -1,0 +1,110 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(246, 213, 246);
+    color: #333;
+}
+
+header.main-header {
+    background-color: rgb(147, 77, 147);
+    color: beige;
+    font-family: "Updock", cursive;
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+aside {
+    width: 23%;
+    height: 70vh;
+    background-color: rgb(230, 199, 223);
+    padding: 0;
+    float: left;
+
+}
+
+aside nav ul {
+    list-style-type: none;
+}
+
+aside nav ul li {
+    margin:0;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    padding:20px;
+    overflow: hidden;
+    margin:0;
+    display: block;
+}
+
+
+.nav-bar {
+    overflow: hidden;
+    list-style-type: none;
+    padding:20px;
+    background-color: rgb(195, 139, 195);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(66, 51, 51);
+    font-size: large;
+    font-weight: bolder;
+}
+
+ a:hover {
+    background-color: hsl(300, 31%, 44%);
+    color: antiquewhite;
+}
+
+a.image:hover {
+    background-color: rgb(195, 139, 195);
+}
+
+/* Main Content Styling */
+main {
+    margin-left: 30%;
+    padding: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: rgb(147, 77, 147);
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
